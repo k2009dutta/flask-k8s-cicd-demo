@@ -143,7 +143,7 @@ k2009dutta/flask-k8s-demo:<github-sha>
 
 ## Required GitHub Secrets
 
-Add these secrets in your GitHub repository settings:
+Add these Secrets in your GitHub repository settings:
 
 ```text
 DOCKER_USERNAME
