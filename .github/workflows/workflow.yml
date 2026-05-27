@@ -21,8 +21,11 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t k2009dutta/flask-k8s-demo:${{ github.sha }} .
-
+        docker build \
+          -t k2009dutta/flask-k8s-cicd-demo:${{ github.sha }} \
+          -t k2009dutta/flask-k8s-cicd-demo:latest \
+          .
     - name: Push Docker Image
       run: |
-        docker push k2009dutta/flask-k8s-demo:${{ github.sha }}
+        docker push k2009dutta/flask-k8s-cicd-demo:${{ github.sha }}
+        docker push k2009dutta/flask-k8s-cicd-demo:latest
