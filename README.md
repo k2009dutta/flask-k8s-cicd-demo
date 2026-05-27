@@ -1,6 +1,7 @@
 # Flask Kubernetes CI/CD Demo
 
-This project is a simple Flask application packaged with Docker and prepared for deployment to Kubernetes. It also includes a GitHub Actions workflow that builds the Docker image and pushes it to DockerHub whenever changes are pushed to the `main` branch.
+This project is a simple Flask application packaged with Docker and prepared for deployment to Kubernetes. 
+It also includes a GitHub Actions workflow that builds the Docker image and pushes it to DockerHub whenever changes are pushed to the `main` branch.
 
 ## Project Structure
 
